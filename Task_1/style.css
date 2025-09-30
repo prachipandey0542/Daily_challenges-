@@ -1,14 +1,4 @@
-@font-face {
-    font-family: lovly;
-    src: url('../fonts_style/LovelineGlamour-owdE0.ttf');
-}
-
-@font-face {
-    font-family: maaa;
-    src: url('../fonts_style/Themundayfreeversion-Regular.ttf');
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -16,68 +6,83 @@
 html,body{
     width: 100%;
     height: 100%;
-    background-image: url('../assets/image.png');
+}
+
+#dp{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    left: 48%;
+    top: 25px;
+    border: 3px solid salmon;
+    background-image: url('../assets/dp.png');
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    
+}
+
+.txt{
+    width: 500px;
+    height: 25px;
+    background-color: white;
     position: relative;
+    left: 225px;
+    padding-top: 5px;
+
 }
 
-p{
+#head{
+    width: 100vw;
+    height: 140px;
+    background-color: #232F3E;
     color: white;
-    text-transform: capitalize;
-    font-family: maaa;
-    font-weight: 900;
-    font-size: 20px;
-    position: absolute;
-    top: 330px;
-    left: 50px;
-    letter-spacing: 2px;
-}
-
-#para{
-    color: white;
-    text-transform: capitalize;
-    font-family: maaa;
-    font-weight: 900;
-    font-size: 18px;
-    position: absolute;
-    top: 70px;
-    left: 40%;
-    letter-spacing: 2px;
- 
-}
-
-h1{
-    color: white;
-    text-transform: capitalize;
-    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-family: maaa;
+    padding-top: 120px;
+}
+
+#sec{
+    width: 100vw;
+    text-align: center;
+}
+
+#d1{
+    width: 70%;
+    height: 230px;
+    background-color: rgba(135, 207, 235, 0.392);
+    margin-left: 210px;
+}
+
+#d2{
+    width: 70%;
+    height: 340px;
+    background-color: rgba(255, 166, 0, 0.192);
+    margin-left: 210px;
+    font-weight: bold;
+}
+
+#d3{
+    width: 70%;
+    height: 290px;
+    background-color: rgba(128, 0, 128, 0.214);
+    margin-left: 210px;
+    font-style: italic;
+}
+
+#d4{
+    width: 70%;
+    height: 290px;
+    background-color: rgba(127, 255, 212, 0.379);
+    margin-left: 210px;
+}
+
+footer{
+    width: 100%;
+    height: 10px;
+    color: white;
+    text-align: center;
+    padding: 20px;
     font-weight: 900;
-    font-size: 50px;
-    position: absolute;
-    top: 74%;
-    left: 40%;
-}
+    background-color: #232F3E;
 
-#btn{
-    width: 160px;
-    height: 40px;
-    font-weight: 900;
-    position: absolute;
-    background-color: transparent;
-    color: #EF7711;
-    border: 2px solid #EF7711;
-    border-radius: 5px;
-    font-size: 17px;
-    left: 200px;
-    top: 190px;
-    cursor: pointer;
 }
-
-#btn:hover{
-    height: 42px;
-    width: 162px;
-}
-
