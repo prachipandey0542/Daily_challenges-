@@ -1,13 +1,22 @@
+@font-face {
+    font-family: sweter;
+    src: url('../fonts_style/Themundayfreeversion-Regular.ttf');
+}
+
+
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    color: white;
 }
 
 html,body{
     height: 100%;
     width: 100%;
+    background-image: url('https://img.freepik.com/premium-photo/red-shirt-with-number-7-it_1013369-119315.jpg?semt=ais_incoming&w=740&q=80');
+    background-size: cover;
 }
 
 #main{
@@ -16,59 +25,105 @@ html,body{
 }
 
 #main h1{
-    font-size: 320px;
+    font-size: 240px;
     font-weight: 100;
     padding-left: 50px;
+    font-family: sweter;
+    position: absolute;
+    bottom: 210px;
+    right: 20px;
+    z-index: 1;
+    
 }
 
 #img1{
-    height: 160px;
+    height: 180px;
     width: 160px;
     position: absolute;
-    left: 57%;
+    left: 60%;
     top: 70%;
-    z-index: 2;
+    z-index: 3;
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+
+#img1:hover, #img2:hover, #img3:hover{
+    border: 3px solid salmon;
+    cursor: pointer;
 
 }
 
 #img2{
-    height: 350px;
+    height: 360px;
     width: 230px;
     position: absolute;
     left: 66%;
-    top: 40%;
-    z-index: 3;
+    top: 35%;
+    z-index: 2;
+    border-radius: 20px;
+    border: 3px solid white;
 }
 
 #img3{
-    height: 160px;
-    width: 150px;
+    height: 220px;
+    width: 160px;
     position: absolute;
-    left: 50%;
-    top: 55%;
+    left: 53%;
+    top: 45%;
+    border-radius: 20px;
+    z-index: 2;
+    border: 2px solid white;
 }
 
 #navbar{
-    display: flex;
-    justify-content: space-around;
     padding-top: 25px;
+    position: relative;
+    z-index: 3;
 }
 
-#navbar a{
+#navbar #a1{
     text-decoration: none;
-    color: black;
+    position: absolute;
+    left: 10%;
+    cursor: pointer; 
 }
 
-#navbar #a1 a{
+#navbar #a2{
     text-decoration: none;
-    padding-left: 20px;
-    color: black;
+    position: absolute;
+    left: 15%;
+    cursor: pointer; 
 }
-
-#navbar #a2 a{
+#navbar #a3{
     text-decoration: none;
-    padding-left: 20px;
-    color: black;
+    position: absolute;
+    left: 20%;
+    cursor: pointer; 
+}
+#navbar #a4{
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    cursor: pointer; 
+}
+#navbar #a5{
+    text-decoration: none;
+    position: absolute;
+    right: 10%;
+    cursor: pointer; 
+}
+#navbar #a6{
+    text-decoration: none;
+    position: absolute;
+    right: 15%;
+    cursor: pointer; 
+}
+#navbar #a7{
+    text-decoration: none;
+    position: absolute;
+    right: 20%;
+    cursor: pointer; 
 }
 
 #box{
@@ -87,7 +142,7 @@ html,body{
 footer{
     display: flex;
     justify-content: space-between;
-    padding-top: 240px;
+    padding-top: 41%;
 }
 
 footer h3{
@@ -95,13 +150,24 @@ footer h3{
     font-weight: 300;
     position: absolute;
     left: 60px;
+    cursor: pointer;
 }
 
 footer a{
     font-style: italic;
     text-decoration: none;
-    color: black;
     font-weight: 300;
     position: absolute;
     right: 70px;
+    cursor: pointer;
 }
+
+footer span{
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    bottom: 14px;
+    right: 30px;
+    cursor: pointer;
+}
+
