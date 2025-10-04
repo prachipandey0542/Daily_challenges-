@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#nav{
+    width: 100%;
+    height: 40px;
+    background-color: #1D1D1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    position: fixed;
+}
+
+#nav h4{
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+#head{
+    width: 100%;
+    height: 680px;
+    background-image: url('https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    
+}
+
+#center{
+    text-align: center;
+    padding: 90px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#center h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#center h5{
+    font-size: 18px;
+    padding: 15px;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px;
+}
+#btn button{
+    background-color: #0077ED;
+    padding: 10px 25px;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#btn #buy{
+    background-color: transparent;
+    border: 1px solid #0077ED;
+    color: #0077ED;
+}
+
+#btn #buy:hover{
+    background-color: #0077ED;
+    color: white;
+}
+
+#products{
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+
+
+#center2{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_medium.jpg');
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+#center2 h1{
+    font-size: 60px;
+    font-weight: 520;
+}
+
+#center2 h5{
+    font-size: 25px;
+    padding: 15px;
+    font-weight: 300;
+}
+
