@@ -5,7 +5,6 @@ btn.addEventListener("click", function () {
   let div = document.createElement("div");
   div.style.width = "50px";
   div.style.height = "50px";
-  div.style.transform = "rotate(360deg)";
 
   let c1 = Math.floor(Math.random() * 256);
   let c2 = Math.floor(Math.random() * 256);
