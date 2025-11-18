@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: auto;
+}
+main section {
+  height: 100%;
+  width: 100%;
+  flex-shrink: 0;
+  border: 2px solid white;
+  cursor: pointer;
+}
+main section:nth-child(1) h1 {
+  color: transparent;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 15%;
+  background-image: url("https://i.pinimg.com/originals/bd/35/7e/bd357e3e61f3b424f237d332462193a1.gif");
+  background-position: top;
+  background-size: cover;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+main section:nth-child(1) p {
+  color: transparent;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/bd/35/7e/bd357e3e61f3b424f237d332462193a1.gif");
+  background-position: top;
+  background-size: cover;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+main section:nth-child(2) {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px 1fr 1fr;
+  grid-gap: 6px;
+  grid-template-areas: "header header header" "section section section" "div1 div2 div3";
+}
+main section:nth-child(2) header {
+  background-color: darkgoldenrod;
+  grid-area: header;
+}
+main section:nth-child(2) section {
+  background-color: darkmagenta;
+  grid-area: section;
+  border: none;
+}
+main section:nth-child(2) #div1 {
+  background-color: darkblue;
+  grid-area: div1;
+}
+main section:nth-child(2) #div2 {
+  background-color: darkgray;
+  grid-area: div2;
+}
+main section:nth-child(2) #div3 {
+  background-color: darkred;
+  grid-area: div3;
+}
+main section:nth-child(3) {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-template-rows: 80px 1fr 100px;
+  grid-gap: 6px;
+  grid-template-areas: "header header" "aside section " "footer footer";
+}
+main section:nth-child(3) header {
+  background-color: darkslateblue;
+  grid-area: header;
+}
+main section:nth-child(3) aside {
+  background-color: darkcyan;
+  grid-area: aside;
+}
+main section:nth-child(3) section {
+  background-color: rgb(79, 47, 75);
+  grid-area: section;
+  border: none;
+}
+main section:nth-child(3) footer {
+  background-color: darkorange;
+  grid-area: footer;
+}
+main section:nth-child(4) {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50px 200px 1fr;
+  grid-template-rows: 30px 60px 1fr 40px;
+  grid-gap: 6px;
+  grid-template-areas: "had1 had1 had1" "had2 had2 had2" "side1 side2 section" "footer footer footer";
+}
+main section:nth-child(4) #had1 {
+  background-color: darkgray;
+  grid-area: had1;
+}
+main section:nth-child(4) #had2 {
+  background-color: rgba(255, 255, 255, 0.34);
+  grid-area: had2;
+}
+main section:nth-child(4) #side1 {
+  background-color: darkmagenta;
+  grid-area: side1;
+}
+main section:nth-child(4) #side2 {
+  background-color: rgb(208, 71, 169);
+  grid-area: side2;
+}
+main section:nth-child(4) section {
+  background-color: rgba(184, 89, 11, 0.66);
+  grid-area: section;
+  border: none;
+}
+main section:nth-child(4) footer {
+  background-color: darkred;
+  grid-area: footer;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
+
+main section:nth-child(5) h1 {
+  color: transparent;
+  font-size: 60px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 15%;
+  background-image: url("https://i.pinimg.com/originals/bd/35/7e/bd357e3e61f3b424f237d332462193a1.gif");
+  background-position: top;
+  background-size: cover;
+  -webkit-background-clip: text;
+          background-clip: text;
+}

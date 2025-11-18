@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.7s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  position: relative;
+}
+main section h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+main section:hover {
+  flex-grow: 2;
+}
+main section:hover h1 {
+  left: 35%;
+  font-size: 50px;
+}
+main section:nth-child(1) {
+  background-image: url("https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjByb29tfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000");
+}
+main section:nth-child(2) {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/sitting-rooms-hilliard-locust-18-11-20-1578948041.jpg");
+}
+main section:nth-child(3) {
+  background-image: url("https://learncalifornia.org/wp-content/uploads/2024/08/Pink-Room-Decor.jpeg");
+}
+main section:nth-child(4) {
+  background-image: url("https://www.cgarchitect.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNi9vQVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9e1ec06663045e9a16f789704dde5797edfaa38b/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9VY21WemFYcGxYM1J2WDJ4cGJXbDBXd2RwQXFnQ01Eb0tjMkYyWlhKN0Jqb01jWFZoYkdsMGVXbGsiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--71ea0a37f5deb16245f58d9692d8ff87c9db5ace/a1057e7b.jpg");
+}
+main section:nth-child(5) {
+  background-image: url("https://brabbu.com/blog/wp-content/uploads/2023/09/ehuq-chO-1.png");
+}/*# sourceMappingURL=style.css.map */
