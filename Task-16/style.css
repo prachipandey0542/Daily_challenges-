@@ -12,13 +12,16 @@ html,body{
     align-items: center;
     background-color: rgba(0, 0, 0, 0.801);
     flex-direction: column;
+    background-image: url('https://images2.alphacoders.com/686/686859.jpg');
+    background-size: cover;
+    background-position: bottom;
 }
 
 .piano{
     width: 90%;
     max-width: 900px;
     height: 400px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.188);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,8 +98,8 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 20px;
-  background-image: url("https://i.pinimg.com/originals/bd/35/7e/bd357e3e61f3b424f237d332462193a1.gif");
-  background-position: top;
+  background-image: url("https://i.pinimg.com/236x/b7/f8/27/b7f8273436efef62f191fb848daf1215.jpg");
+  background-position: center;
   background-size: cover;
   -webkit-background-clip: text;
           background-clip: text;
