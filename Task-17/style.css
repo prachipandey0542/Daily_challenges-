@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.679);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    padding: 20px; 
+}
+
+section{
+    height: 100%;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.all-reels{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    
+    
+}
+
+.all-reels::-webkit-scrollbar{
+    display: none;
+}
+
+.all-reels .reel{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    overflow: hidden;
+    
+}
+
+.reel video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.reel .bottom{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom .profile{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0px 0px 10px;    
+}
+
+.profile .dp{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.dp img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile button{
+    padding: 3px 15px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bottom #title{
+    color: white;
+    padding-left: 16px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.icons{
+    height: 100%;
+    width: 60px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    padding-bottom: 90px;
+    border-radius: 10px;
+    
+}
+
+.icons .likes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons .comments{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons .shares{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons .manu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.icons i{
+    font-size: 28px;
+    cursor: pointer;
+}
+
+
+@keyframes scroll-continuous {
+  0% {
+    transform: translatey(0);
+  }
+  100% {
+    transform: translatey(-100%);
+  }
+}
